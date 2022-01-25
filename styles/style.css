@@ -1,0 +1,184 @@
+html {
+  scroll-behavior: smooth;
+}
+.padding-s {
+  padding: 3%;
+}
+.padding-m {
+  padding: 5%;
+}
+.padding-l {
+  padding: 10%;
+}
+* {
+  box-sizing: border-box;
+  /*inhabilita el padding para evitar el descuadre del layaout*/
+}
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.float {
+  float: left;
+}
+.column-menu {
+  width: 10%;
+  float: left;
+  position: fixed;
+  background-color: #aac3ca;
+  height: 100vh;
+  text-align: center;
+}
+.column-menu a {
+  text-decoration: none;
+  color: black;
+}
+.column-menu li {
+  text-align: left;
+  padding: 1%;
+  margin-right: 1%;
+}
+.column-structure {
+  margin-left: 10%;
+  width: 65%;
+  float: left;
+  background-color: #f0fbff;
+}
+.column-structure section p {
+  font-family: 'Balsamiq Sans', cursive;
+}
+.column-news {
+  width: 25%;
+  background-color: #aac3ca;
+  height: 472vh;
+  float: left;
+}
+.column-news h1 {
+  font-size: 35px;
+  text-align: center;
+}
+.column-news a {
+  text-decoration: none;
+  color: black;
+}
+.column-3 {
+  width: 33%;
+  float: left;
+}
+.column-2 {
+  width: 50%;
+  float: left;
+}
+.column-1 {
+  width: 100%;
+  float: left;
+}
+.borde {
+  border-style: solid;
+  border-radius: 2px;
+}
+.center_img {
+  background-size: cover;
+  background-position: center;
+}
+.news {
+  border-style: solid;
+  border-radius: 2px;
+  border-color: #a5cdfc;
+  background-image: url(../img/periodico.jfif);
+  background-size: cover;
+  background-position: center;
+}
+header {
+  background-image: url(../img/calafell.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 30vh;
+  text-align: center;
+  padding-top: 5% ;
+  font-family: 'Comforter', cursive;
+  font-size: 55px;
+  color: white;
+  border-style: solid;
+  border-radius: 2px;
+  border-color: #66c6ec;
+}
+#image-1 {
+  background-image: url(../img/vela.jfif);
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+}
+#image-2 {
+  background-image: url(../img/castillo.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+}
+#image-3 {
+  background-image: url(../img/CIUTADELLA.jfif);
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+}
+#image-4 {
+  background-image: url(../img/manatial.jfif);
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+}
+#image-5 {
+  background-image: url(../img/slide.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+}
+#image-6 {
+  background-image: url(../img/naturpark.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+}
+#image-7 {
+  background-image: url(../img/pau\ casals.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 50vh ;
+}
+#image-8 {
+  background-image: url(../img/RA.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 50vh ;
+}
+#image-9 {
+  baCkground-image: url(../img/4R.jpg.crdownload);
+  background-size: cover;
+  background-position: center;
+  height: 50vh ;
+}
+#image-10 {
+  background-image: url(../img/CANADA.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 50vh ;
+}
+#noticia-1 {
+  background-image: url(../img/noticasBUDA.jfif);
+  background-size: cover;
+  background-position: center;
+  height: 40vh;
+}
+#noticia-2 {
+  background-image: url(../img/empadronados.jfif);
+  background-size: cover;
+  background-position: center;
+  height: 40vh;
+}
+#noticia-3 {
+  background-image: url(../img/carnaval.webp);
+  background-size: cover;
+  background-position: center;
+  height: 40vh;
+}

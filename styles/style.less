@@ -1,0 +1,200 @@
+
+html {
+    
+    scroll-behavior: smooth;
+}
+//paddings
+
+.padding-s{
+    padding: 3%;
+}
+
+.padding-m{
+    padding: 5%;
+}
+
+.padding-l{
+    padding: 10%
+}
+//columnas
+
+* {
+    box-sizing: border-box;
+    /*inhabilita el padding para evitar el descuadre del layaout*/
+}
+.row::after{
+    content: "";
+    display: table;
+    clear: both;  
+}
+.float{
+    float: left;
+}
+
+
+.column-menu {
+    width: 10%;
+    .float;
+    position: fixed;
+    height: 100vh;
+    background-color: rgb(170, 195, 202) ;
+    height:100vh;
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    text-align: center;
+    li{
+        text-align: left;
+        padding: 1%;
+        margin-right:1%;
+    };
+}
+.column-structure{
+    margin-left: 10%;
+    width: 65%;
+    .float;
+    background-color: rgb(240, 251, 255);
+    section{
+        p{
+            font-family: 'Balsamiq Sans', cursive;
+        }
+    }
+
+    
+}
+.column-news{
+    width: 25%;
+    background-color: rgb(170, 195, 202);
+    height: 472vh;
+    .float;
+    h1{
+    font-size: 35px;
+    text-align: center;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    div{
+    
+        
+        
+    }
+}
+.column-3{
+    width: 33%;
+    .float;
+}
+.column-2{
+    width: 50%;
+    .float;
+}
+
+.column-1{
+    width: 100%;
+    .float
+}
+
+
+
+//imagenes y decoracion de las estrucutras
+.borde{
+    border-style: solid;
+    border-radius: 2px;
+}
+.center_img{
+    background-size: cover;
+    background-position: center;
+}
+.news{
+   .borde;
+    border-color: rgb(165, 205, 252);
+    background-image: url(../img/periodico.jfif);
+    .center_img;
+}
+header{
+    background-image: url(../img/calafell.jpg);
+   .center_img; 
+    height: 30vh;
+    text-align: center;
+    padding-top: 5% ;
+    font-family: 'Comforter', cursive;
+    font-size: 55px;
+    color: white;
+    .borde;
+    border-color: rgb(102, 198, 236) ;
+    
+}   
+
+//imagenes galeria
+
+
+#image-1{
+    background-image: url(../img/vela.jfif);
+    .center_img;
+    height: 50vh;
+}
+#image-2{
+    background-image: url(../img/castillo.jpeg);
+    .center_img;    
+    height: 50vh;
+}
+#image-3{
+    background-image: url(../img/CIUTADELLA.jfif);
+    .center_img;
+    height: 50vh;
+}
+#image-4{
+    background-image: url(../img/manatial.jfif);
+    .center_img;
+    height: 50vh;
+}
+#image-5{
+    background-image: url(../img/slide.jpg);
+    .center_img;
+    height: 50vh;
+}
+#image-6{
+    background-image: url(../img/naturpark.jpg);
+    .center_img;
+    height: 50vh;
+}
+#image-7{
+    background-image: url(../img/pau\ casals.jpg);
+    .center_img;
+    height: 50vh ;
+}
+#image-8{
+    background-image: url(../img/RA.jpg);
+    .center_img;
+    height: 50vh ;
+}
+#image-9{
+    baCkground-image: url(../img/4R.jpg.crdownload);
+    .center_img;
+    height: 50vh ;
+}
+#image-10{
+    background-image: url(../img/CANADA.jpg);
+    .center_img;
+    height: 50vh ;
+}
+#noticia-1{
+    background-image: url(../img/noticasBUDA.jfif);
+    .center_img;
+    height: 40vh;
+    
+}
+#noticia-2{
+    background-image: url(../img/empadronados.jfif);
+    .center_img;
+    height: 40vh;
+    
+}
+#noticia-3{
+    background-image: url(../img/carnaval.webp);
+    .center_img;
+    height: 40vh;
+    
+}
